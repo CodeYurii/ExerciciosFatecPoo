@@ -1,0 +1,12 @@
+Exercício da matéria de Java
+
+Criar uma calculadora de juros compostos em JFrame utilizando como base a Calculadora do Cidadão
+Link Calculadora do Cidadão: https://www3.bcb.gov.br/CALCIDADAO/publico/exibirFormCorrecaoValores.do?method=exibirFormCorrecaoValores
+
+A calculadora possui 3 páginas, Home, Simulador Financiamento e Exemplo de cálculos.
+
+Pagina Home: Possui 2 botões, o botão Financiamento que leva o usuario a página do Simulador de Financiamento
+e o botão Exemplo de cálculos que leva o usuário a página que contém os exemplos de como utilizar a calculadora extraídos do site 'Calculadora do Cidadão'.
+
+Página Financiamento possui as funçoes de Calcular (a partir de 3 campos preenchidos calcula o valor do 4º campo), Limpar (limpa o campo dos textfields),
+Voltar (volta a pagina Home) e Imprimir (imprimi a tela em PDF).
