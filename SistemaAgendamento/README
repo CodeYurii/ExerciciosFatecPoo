@@ -1,0 +1,26 @@
+Exercício da matéria de Java
+
+Este projeto consiste em um sistema de agendamento desenvolvido em Java para auxiliar uma pizzaria no gerenciamento dos cadastros de clientes. 
+O sistema oferece uma interface gráfica intuitiva construída com a biblioteca JFrame.
+
+Funcionalidades:
+Cadastro de Clientes: Permite registrar informações como nome, telefone, endereço, data do último pedido, descrição do último pedido e valor do pedido.
+Consulta Individual: Permite buscar informações de um cliente específico pelo seu ID.
+Consulta Geral: Apresenta uma lista com todos os clientes cadastrados no sistema.
+Atualização de Dados: Permite modificar as informações de um cliente existente.
+Exclusão de Clientes: Remove um cliente do banco de dados com base no seu ID.
+
+Pré-requisitos:
+Java Development Kit (JDK): É necessário ter o JDK instalado na máquina para compilar e executar o projeto.
+Oracle Database (ou UsbWebServer): O sistema foi desenvolvido para se conectar a um banco de dados Oracle. 
+Também é possível adaptá-lo para funcionar com o UsbWebServer, descomentando as linhas adequadas no código.
+
+Instruções de Uso:
+Configuração do Banco de Dados: Certifique-se de que o banco de dados Oracle esteja configurado corretamente. 
+Caso contrário, ajuste as informações de conexão no método getConexao() no arquivo Agendamento.java.
+
+Compilação e Execução: Para compilar e executar o projeto, utilize a IDE de sua preferência ou execute o comando java -jar Agendamento.jar no terminal, após compilar o projeto.
+
+Observações:
+Caso deseje criar uma nova tabela no banco de dados, descomente o método criarTabela() na função main.
+O sistema foi projetado para aceitar conexão tanto com o Oracle quanto com o UsbWebServer. Certifique-se de ajustar adequadamente as informações de conexão no código.
